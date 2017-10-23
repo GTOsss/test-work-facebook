@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -49,8 +51,6 @@
     "react-dom": "^16.0.0",
     "react-icons": "^2.2.5",
     "react-redux": "^5.0.2",
-    "react-router": "^3.0.2",
-    "react-router-redux": "^4.0.8",
     "react-select": "^1.0.0-rc.5",
     "react-transition-group": "^1.2.0",
     "reactstrap": "^4.6.2",
