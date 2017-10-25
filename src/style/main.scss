@@ -1,0 +1,83 @@
+body {
+  font-size: 14px;
+  background-color: #E9EBEE;
+}
+
+.wrapCenter {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.defaultInput {
+  border-radius: 4px;
+  border: 1px solid #CBCBCB;
+  padding: 0.4rem 1rem;
+  color: #525252;
+  width: 100%;
+  outline: none;
+}
+
+.defaultInput:active, .defaultInput:focus {
+  border-color: #1787FD;
+}
+
+.defaultButton {
+  color: white;
+  background-color: #0880FD;
+  border: 1px solid #CBCBCB;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  margin-top: 1.4rem;
+}
+
+.defaultButtonDisabled {
+  composes: defaultButton;
+  color: black;
+  background-color: grey;
+}
+
+.label {
+  width: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 1.4rem;
+}
+
+.defaultButton {
+  width: 100%;
+  color: black;
+  margin-top: 2.8rem;
+  padding: 7px 16px 8px;
+  background-color: #4d8de5;
+  border-radius: 2px;
+  box-sizing: border-box;
+  border: 2px solid whitesmoke;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.defaultButton:hover {
+  background-color: #5599fc;
+}
+
+.defaultButton:active {
+  background-color: #3e60a5;
+}
+
+.defaultButton:active, .defaultButton:focus {
+  outline: none;
+}
+
+.buttonDisable {
+  composes: defaultButton;
+  background-color: grey;
+  cursor: not-allowed;
+  border-color: #a5a5a5;
+}
+
+.buttonDisable:hover {
+  background-color: grey;
+  border-color: #a5a5a5;
+}
