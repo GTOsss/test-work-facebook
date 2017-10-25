@@ -1,0 +1,32 @@
+@import '../../../style/main';
+
+.input {
+  composes: defaultInput;
+}
+
+.inputError {
+  border-color: darkred;
+}
+
+.errorMsg {
+  font-size: 13px;
+  color: darkred;
+}
+
+.wrapInput {
+  position: relative;
+}
+
+.left {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.right {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.both {
+  border-radius: 0;
+}
