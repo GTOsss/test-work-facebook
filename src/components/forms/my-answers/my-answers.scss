@@ -1,0 +1,15 @@
+@import '../../../style/main';
+
+.form {
+  text-align: center;
+}
+
+.wrapColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  composes: label;
+}
