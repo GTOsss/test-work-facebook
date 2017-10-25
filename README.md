@@ -1,6 +1,6 @@
  How to start this project: 
-git clone https://github.com/GTOsss/test-work-facebook.git \n
-npm i
-npm start
+git clone https://github.com/GTOsss/test-work-facebook.git  
+npm i  
+npm start  
 
-Project running on the localhost:3000
+  Project running on the localhost:3000
