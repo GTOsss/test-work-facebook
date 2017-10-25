@@ -1,0 +1,33 @@
+@import '../../style/main';
+
+.input {
+  composes: defaultInput;
+}
+
+.label {
+  composes: label;
+}
+
+.table {
+  margin-top: 2rem;
+}
+
+.tr {
+  font-size: 20px;
+  font-weight: 600;
+  td {
+    border-color: #87b1ff;;
+    line-height: 100px;
+  }
+}
+
+.activeTr {
+  composes: tr;
+  background-color: #253c67;
+  cursor: pointer;
+}
+
+.userImg {
+  height: 100px;
+  border-radius: 5px;
+}

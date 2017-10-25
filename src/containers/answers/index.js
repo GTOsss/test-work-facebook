@@ -85,18 +85,18 @@ const mapStateToProps = state => ({
 Answers.propTypes = {
   isLoading: PropTypes.bool,
   answers: PropTypes.arrayOf(PropTypes.object),
-  loadAnswers: PropTypes.bool,
   id: PropTypes.string,
   deleteAnswer: PropTypes.func,
+  loadAnswers: PropTypes.func,
   saveAnswer: PropTypes.func,
 };
 
 Answers.defaultProps = {
   isLoading: true,
   answers: [],
-  loadAnswers: false,
   id: '',
   deleteAnswer: null,
+  loadAnswers: null,
   saveAnswer: null,
 };
 
