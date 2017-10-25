@@ -1,0 +1,42 @@
+@import '../../style/variables.scss';
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  color: white;
+}
+
+.wrapTabButtons {
+}
+
+.tabBtn {
+  background-color: $shadow-color;
+  width: 100%;
+  padding: 0.2rem 1.2rem;
+  text-align: center;
+  display: inline;
+  cursor: pointer;
+}
+
+.tabBtnActive {
+  composes: tabBtn;
+  background: $default-color;
+}
+
+.wrapContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.screen {
+  height: 80vh;
+  min-height: 390px;
+  background-color: $default-color;
+  overflow-y: auto;
+}
+
