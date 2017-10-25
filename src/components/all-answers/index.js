@@ -25,8 +25,8 @@ class AllAnswers extends React.Component {
 
   componentWillMount() {
     this.setState({
-      answers: this.props.answers,
-      answersFilter: this.props.answers,
+      answers: this.props.answers || [],
+      answersFilter: this.props.answers || [],
     });
   }
 
@@ -45,7 +45,7 @@ class AllAnswers extends React.Component {
     const value = e.target.value.toLowerCase();
     const result = this.state.answers.filter(el => el.userName.toLowerCase().indexOf(value) >= 0);
     this.setState({
-      answersFilter: result,
+      answersFilter: result || [],
     });
   }
 

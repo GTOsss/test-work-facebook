@@ -94,7 +94,8 @@ Form = reduxForm({ form: 'myAnswers' })(Form);
 
 const selector = formValueSelector('myAnswers');
 const mapStateToProps = (state) => {
-  const answer = state.user.answers.filter(el => state.user.id === el.id)[0] || {};
+  const answers = state.user.answers || [];
+  const answer = answers.filter(el => state.user.id === el.id)[0] || {};
   const userNameLS = answer.userName;
   const isComeLS = answer.isCome;
   const countFriendLS = answer.countFriend;
