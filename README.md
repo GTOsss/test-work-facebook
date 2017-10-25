@@ -1,5 +1,5 @@
-How to start this project: 
-git clone https://github.com/GTOsss/test-work-facebook.git
+ How to start this project: 
+git clone https://github.com/GTOsss/test-work-facebook.git \n
 npm i
 npm start
 
