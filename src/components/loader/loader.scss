@@ -1,0 +1,15 @@
+.wrapLoader {
+  width: 100%;
+  text-align: center;
+}
+
+.icon {
+  animation: rotate linear 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn)
+  }
+}
