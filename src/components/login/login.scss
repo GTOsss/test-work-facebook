@@ -1,0 +1,19 @@
+@import '../../style/main';
+
+.wrapLogin {
+  width: 50%;
+}
+
+.loginBtn {
+  composes: defaultButton;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+
+.FBIcon {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
